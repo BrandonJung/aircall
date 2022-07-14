@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Header = () => {
+const HeaderAsdf = () => {
   return (
     <header>
       <svg width='486px' height='168px' viewBox='0 0 486 168' version='1.1' xmlns='http://www.w3.org/2000/svg'>
@@ -22,4 +22,4 @@ const Header = () => {
   );
 };
 
-export default Header;
+export default HeaderAsdf;

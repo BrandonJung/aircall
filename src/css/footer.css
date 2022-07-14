@@ -1,0 +1,26 @@
+.footer-container {
+    height:46px;
+    display: flex;
+    border-width: 1px;
+    border-top-style: solid;
+    border-top-color: rgba(105, 105, 105, 0.3);
+    flex-direction: row;
+    align-items: center;
+}
+
+.footer-button-container {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+}
+
+.profile-button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    font-size: 16px;
+    font-weight: 600;
+}

@@ -1,0 +1,112 @@
+.call-list-container {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-list-item-container {
+    height: 50px;
+    background-color: rgba(107, 103, 124, 0.1);
+    border-radius: 6px;
+    border-width: 1px;
+    border-style: solid;
+    border-color: rgba(107, 103, 124, 0.1);
+    margin-left: 16px;
+    margin-right: 16px;
+    margin-top: 16px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding-right: 10px;
+    padding-left: 10px;
+    cursor: pointer;
+}
+
+.call-list-details-container {
+    height: 40px;
+    background-color: rgba(107, 103, 124, 0.1);
+    display: flex;
+    border-left-width: 1px;
+    border-left-style: solid;
+    border-left-color: rgba(106, 103, 124, 0.1);
+    border-right-width: 1px;
+    border-right-style: solid;
+    border-right-color: rgba(106, 103, 124, 0.1);
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgba(106, 103, 124, 0.1);
+    border-bottom-right-radius: 6px;
+    border-bottom-left-radius: 6px;
+    margin-left: 20px;
+    margin-right: 20px;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.call-list-item {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.call-left-information {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    flex: 1;
+}
+
+.call-middle-information {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 2;
+    margin-left: 30px;
+}
+
+.call-number {
+    display: flex;
+}
+
+.call-via {
+    display: flex;
+    margin-top: 2px;
+}
+
+.call-right-information {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-end;
+    flex: 2;
+    margin-left: 6px;
+}
+
+.call-date {
+    display: flex;
+}
+
+.call-time {
+    display: flex;
+    margin-top: 2px;
+}
+
+.call-type-text {
+    color: teal
+}
+
+.missed-call {
+    color: red;
+}
+
+.answered-call {
+    color: rgb(36, 185, 36)
+}
+
+.voicemail-call {
+    color: blue;
+}
